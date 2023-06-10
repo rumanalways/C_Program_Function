@@ -9,6 +9,10 @@ float rectanglearea(float a, float b);
 
 int main () {
     float side, red, a, b;
+
+    printf("\n\n Function : find area of Square, Circle, and Rectangle :\n");
+	printf("-------------------------------------------------------------\n");
+
     printf("Enter the area of a square: ");
     scanf("%f", &side);
     printf("Enter the area of a Circle: ");
@@ -17,7 +21,7 @@ int main () {
     scanf("%f%f", &a,&b);
 
     float square = squarearea(side); {
-        printf("Area of a Square is: %.2f\n", square);
+        printf("\nArea of a Square is: %.2f\n", square);
     }
     float circle = circlearea(red); {
         printf("Area of a Circle is: %.2f\n", circle);
